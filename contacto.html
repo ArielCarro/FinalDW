@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocha´s Modas</title>
+    <link rel="stylesheet" href="ccs/bootstrap.css">
+    <link rel="stylesheet" href="ccs/stylesheet.css">
+</head>
+
+<body class="contacto__body">
+    <!-- starts envio gratis -->
+    <div class="header__upperheader">
+        Envio gratis desde $6999
+    </div>
+    <!-- ends envio gratis -->
+    <!-- starts title & logo index only -->
+
+    <header class="header">
+        <nav role="navigation">
+            <div class="header__nav">
+                <input type="checkbox">
+                <div>
+                    <img src="img/menu-button.svg" alt="boton de menu" class="header__menu">
+                </div>
+                <ol class="header__ul--listyle header__list--desplegable">
+                    <li>
+                        <a href="index.html" class="header__li">Home</a>
+                    </li>
+                    <li>
+                        <a href="ofertas.html" class="header__li">Ofertas</a>
+                    </li>
+
+                    <li>
+                        <a href="nuestras-marcas.html" class="header__li">Nuestras Marcas</a>
+                    </li>
+
+                    <li>
+                        <a href="cuidado-de-alhajas.html" class="header__li">Cuidado de Alhajas</a>
+                    </li>
+
+                    <li>
+                        <a href="contacto.html" class="header__li">Contacto</a>
+                    </li>
+                </ol>
+            </div>
+        </nav>
+        <div class="header__div">
+            <div class="header__title">
+                <a href="index.html" class="header__title--fontstyle">Pochas Modas</a>
+            </div>
+        </div>
+        <!-- ends title & logo -->
+    </header>
+    <nav class="header__navsticky">
+        <ol class="header__ul--listyle header__list--sticky">
+            <li>
+                <a href="ofertas.html" class="header__li">Ofertas</a>
+            </li>
+
+            <li>
+                <a href="nuestras-marcas.html" class="header__li">Nuestras Marcas</a>
+            </li>
+
+            <li>
+                <a href="cuidado-de-alhajas.html" class="header__li">Cuidado de Alhajas</a>
+            </li>
+
+            <li>
+                <a href="contacto.html" class="header__li">Contacto</a>
+            </li>
+        </ol>
+
+        <!-- ends general nav -->
+    </nav>
+    <!--ends nav-->
+    <!--starts main-->
+    <Section class="contacto contacto__formulario form">
+        <form action="envio.php" method="post">
+            <fieldset class="fieldset p-4 ">
+                <h3 class="main__title--xxl form__title">Datos Personales</h3>
+                <div class="form-group">
+                    <label class="main__text--xl">Nombres</label>
+                    <input type="text" class="form-control form-control-lg" name="nombres" id="nombres" placeholder="José Maria">
+                </div>
+                <div class="form-group">
+                    <label class="main__text--xl">Apellido</label>
+                    <input type="text" class="form-control form-control-lg" name="apellido" id="apellido" placeholder="Perez">
+                </div>
+                <div class="form-group">
+                    <label class="main__text--xl">Correo Eléctronico</label>
+                    <input type="email" class="form-control form-control-lg" name="email" id="email" placeholder="josemariaperez@email.com">
+                </div>
+                <div class="form-group">
+                    <label class="main__text--xl">Telefono</label>
+                    <input type="number" class="form-control form-control-lg" name="telefono" id="telefono" placeholder="3442586625">
+                </div>
+            </fieldset>
+            <textarea name="mensaje" placeholder="Dejanos tu mensaje" id="mensaje" cols="95" rows="5"
+                class="textarea"></textarea>
+            <div class="form__buttons">
+                <button type="submit" class="btn btn-secondary">Enviar</button>
+                <button type="reset" class="btn btn-secondary">Cancelar</button>
+            </div>
+        </form>
+    </Section>
+    <section class="contacto__map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1416.465309371812!2d-59.78646850604288!3d-32.39393658579761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b135a26805a645%3A0x69c1def5d3ab4c51!2zU2FuIE1hcnTDrW4gNTY1LCBOb2dvecOhLCBFbnRyZSBSw61vcw!5e0!3m2!1ses-419!2sar!4v1644591911252!5m2!1ses-419!2sar"
+            style="border:0;" allowfullscreen="" loading="lazy" class="contacto__map--size"></iframe>
+    </section>
+    <footer class="footer">
+        <div class="footer__contact">
+            <h4 class="footer2__title--md">Contactanos</h4>
+            <h5 class="footer2__text--sm">San martín 775, Nogoyá, Entre Rios</h5>
+            <h5 class="footer2__text--sm">pochamoda@gmail.com</h5>
+            <h5 class="footer2__text--sm">Escribinos al 3435-548692</h5>
+        </div>
+        <div class="footer__social">
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="img/instagram.png" alt="logo instagram con hipervinculo" class="footer__img--size grow">
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="img/facebook.png" alt="logo facebook con hipervinculo" class="footer__img--size grow">
+            </a>
+        </div>
+    </footer>
+    <!--ends footer-->
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
