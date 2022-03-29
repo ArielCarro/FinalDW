@@ -15,7 +15,7 @@ a:hover{
     color:unset;
 }
 $bgColorsolid: rgba(238, 188, 247, 1);
-$bgColoralpha:rgba(238, 188, 247, 0.7);
+$bgColoralpha:rgba(238, 188, 247, 0.8);
 $bgColordesplegable:rgba(255, 255, 255, 0.8);
 $bgColorofertas: #C1F4C5;
 $headerTitleColor: rgb(140, 68, 207);
@@ -25,11 +25,11 @@ $headerTitlesize:3rem;
 
 
 @mixin textXl {
-    font-size: 1.5rem;
+    font-size: calc(1.5rem + 0.2vw);
     line-height: 150%;
 }
 @mixin textMd {
-    font-size:1.2rem;
+    font-size: calc(1.2rem + 0.2vw);
     font-weight: 500;
     line-height: 150%;
 }
