@@ -1,0 +1,41 @@
+.form{
+    width: 90%;
+    grid-area: formulario;
+}
+.fieldset{
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: rgba(238, 188, 247, 1);
+margin: 12% 0 0 15%;
+width: 80%;
+box-sizing: border-box;
+}
+.form__title{
+    text-align: center;
+}
+.form__label--width{
+    width: 50%;
+}
+.form__items{
+    display: flex;
+    justify-content: space-between;
+}
+.textarea{
+    margin: 0px 1vw 0 15%;
+    font-size: calc(1.1rem + 0.4vw);
+    width: 80%;
+    box-sizing: border-box;
+}
+.form__buttons{
+    margin: 0 1vw 17% 15%;
+}
+.contacto__map{
+    margin: 10% 0 10% 15%;
+    grid-area: mapa;
+    box-sizing: border-box;
+}
+.contacto__map--size{
+    width: 80%;
+    height: 400px;
+}

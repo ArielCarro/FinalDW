@@ -1,6 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:unset;
+}
 $bgColorsolid: rgba(238, 188, 247, 1);
 $bgColoralpha:rgba(238, 188, 247, 0.7);
-$headerTitleColor: rgb(140, 68, 207);
-$headerTitleFontstyle:'Pacifico', cursive;
-$navFontsize: calc(2rem + 0.65vw);
+$bgColordesplegable:rgba(255, 255, 255, 0.8);
+$bgColorofertas: #C1F4C5;
+
+@mixin textXl {
+    font-size: 1.5rem;
+    line-height: 150%;
+}
+@mixin textMd {
+    font-size:1.2rem;
+    font-weight: 500;
+    line-height: 150%;
+}
+@mixin titleXl{
+    font-size: calc(3rem + 0.2vw);
+    font-weight: 500;
+}
+@mixin titleMd{
+    font-size: calc(2rem + 0.2vw);
+    font-weight: 500;
+}
+@mixin titleSm{
+    font-size: calc(1.5rem + 0.2vw);
+    font-weight: 500;
+}

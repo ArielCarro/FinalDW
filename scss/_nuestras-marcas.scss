@@ -1,0 +1,31 @@
+.marcas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 60px 0 60px 0;
+}
+.marcas__main{
+    grid-area: marcas;
+    background-color: $bgColoralpha;
+}
+.marcas__li{
+    width: 30%;
+    border: 3px;
+    height: 30vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border: 3px solid;
+    margin: 20px;
+}
+.marcas__image{
+    object-fit: contain;
+    min-width: 100%;
+    max-width: 100%;
+    justify-self: center;
+}

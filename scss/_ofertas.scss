@@ -1,0 +1,38 @@
+.ofertas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    grid-area: ofertas;
+    box-sizing: border-box;
+    li{
+        width: 30%;
+        border: 3px;
+        top: 0;
+        margin: 10px;
+        height: auto;
+        figure{
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            top: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: white;
+            border: 3px solid;
+            figcaption{
+                @include textXl;
+                text-align: center;
+                background-color: $bgColorofertas;
+                text-overflow: clip;
+                text-overflow: ellipsis;
+            }
+            img{
+                object-fit: contain;
+                height: 30vh;
+            }
+        }
+    }
+}

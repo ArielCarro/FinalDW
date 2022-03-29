@@ -1,0 +1,47 @@
+.cuidados__body{
+    div{
+        h3{
+            @include titleMd;
+        }
+        h4{
+            @include titleSm;
+        }
+        p{
+            @include textXl;
+        }
+    }
+}
+.cuidados__orotxt{
+    grid-area: orotxt;
+    background-color: rgba(238, 188, 247, 0.8);
+    margin: 10vw 0 0 0;
+    padding: 10vw 0 10px 0;
+}
+
+.cuidados__orovid{
+    grid-area: orovid;
+    background-color: rgba(238, 188, 247, 0.8);
+    margin: 0 0 10vw 0;
+    padding: 0 0 10vw 0;
+}
+
+.cuidados__platatxt{
+    grid-area: platatxt;
+    background-color: rgba(238, 188, 247, 0.8);
+    margin: 10vw 0 0 0;
+    padding: 10vw 0 10px 0;
+}
+
+.cuidados__platavid{
+    grid-area: platavid;
+    background-color: rgba(238, 188, 247, 0.8);
+    margin: 0 0 10vw 0;
+    padding: 0 0 10vw 0;
+}
+.cuidados__vid{
+
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
