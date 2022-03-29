@@ -18,6 +18,11 @@ $bgColorsolid: rgba(238, 188, 247, 1);
 $bgColoralpha:rgba(238, 188, 247, 0.7);
 $bgColordesplegable:rgba(255, 255, 255, 0.8);
 $bgColorofertas: #C1F4C5;
+$headerTitleColor: rgb(140, 68, 207);
+$headerTitleFontstyle:'Pacifico', cursive;
+$navFontsize: calc(2rem + 0.65vw);
+$headerTitlesize:3rem;
+
 
 @mixin textXl {
     font-size: 1.5rem;
@@ -39,4 +44,8 @@ $bgColorofertas: #C1F4C5;
 @mixin titleSm{
     font-size: calc(1.5rem + 0.2vw);
     font-weight: 500;
+}
+@mixin d-flex-center{
+    display: flex;
+    justify-content: center;
 }
