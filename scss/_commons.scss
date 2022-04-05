@@ -31,6 +31,11 @@ $paleta:(
     font-weight: $font-weight;
     line-height: $line-height;
 }
+@mixin flex($display,$justify,$align){
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+}
 @mixin body{
     background-image: url(../img/background.jpg) ;
     background-attachment: scroll;
@@ -59,8 +64,4 @@ $paleta:(
 @mixin titleSm{
     font-size: calc(1.5rem + 0.2vw);
     font-weight: 500;
-}
-@mixin d-flex-center{
-    display: flex;
-    justify-content: center;
 }

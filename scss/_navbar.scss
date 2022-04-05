@@ -30,7 +30,7 @@ li a:hover{
 .header__div{
     width: 100%;
     background-color: map-get($map: $paleta, $key:'bgSolid' );
-    @include d-flex-center;
+    @include flex (flex, center, center);
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
@@ -47,9 +47,8 @@ li a:hover{
     z-index: 2;
 }
 .header__list--desplegable{
-    display: flex;
+    @include flex (flex, space-around, center);
     flex-direction: column;
-    justify-content: space-around;
 	position: absolute;
 	width: 90vw;
 	height: 60vh;
@@ -80,7 +79,7 @@ li a:hover{
     width: 50%;
 }
 .centerLogo{
-    @include d-flex-center    
+    @include flex (flex, center, center);  
 }
 .header__image{
     width: 50%;
@@ -98,9 +97,7 @@ li a:hover{
     width: 100%;
 }
 .header__list--sticky{
-    display: flex;
+    @include flex (flex, space-around, center);
     width: 100%;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
 }

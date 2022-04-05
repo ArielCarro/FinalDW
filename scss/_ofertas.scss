@@ -1,7 +1,5 @@
 .ofertas{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex (flex, center, center);
     flex-wrap: wrap;
     list-style: none;
     grid-area: ofertas;
@@ -17,9 +15,8 @@
             height: auto;
             object-fit: contain;
             top: 0;
-            display: flex;
+            @include flex (flex, space-between, center);
             flex-direction: column;
-            justify-content: space-between;
             background-color: white;
             border: 3px solid;
             figcaption{

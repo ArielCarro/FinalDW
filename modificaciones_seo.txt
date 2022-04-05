@@ -1,0 +1,12 @@
+-Cambie los metas de todos los HTML dándoles descripciones distintas a cada uno.
+
+-Agregue en todos los HTML las siguientes palabras claves: 
+comprar vender alhajas alajas relojes cadenas pulseras anillos plata oro piedras preciosas nogoyá 
+entre rios barato Pochas aniversario regalo cumpleaños esposa novia mama Modas mejores marcas cuidados
+
+-Agrego etiqueta h1 a título principal “Pochas moda”
+
+-Cambio nombres de imágenes de ofertas y nuestras marcas, separo las palabras con “_”
+
+-Cambio nombre de fotos de slider pasan de llamarse “interiorlocal” a “interior_joyeria_pochas_moda” y 
+agrego descripción en alt: “Foto del interior de joyeria pochas moda”

@@ -1,7 +1,5 @@
 footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    @include flex (flex, space-between, center);
     background-color: map-get($map: $paleta, $key:'bgAlpha' );
     grid-area: footer;
     width: auto;
@@ -25,10 +23,8 @@ footer{
     width: 50px;
 }
 .footer__social{
-    display: flex;
+    @include flex (flex, center, center);
     align-items: row;
-    justify-content: center;
-    align-items: center;
 }
 .grow { transition: all .3s ease-in-out; 
 }
