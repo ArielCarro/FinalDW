@@ -319,7 +319,7 @@ article h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center; }
-  .comments h3 {
+  .comments h4 {
     font-size: calc(2rem + 0.2vw);
     font-weight: 500; }
   .comments p {
@@ -338,13 +338,6 @@ article h2 {
 .comments--bgwhite {
   background: #020024;
   background: linear-gradient(90deg, #020024 0%, rgba(255, 255, 255, 0.706) 0%, rgba(226, 160, 238, 0.143) 100%); }
-
-.comments__title--xl {
-  font-size: 2.5rem;
-  font-weight: 500; }
-
-.comments__text--md {
-  font-size: 2rem; }
 
 .ofertas {
   display: flex;
@@ -611,6 +604,27 @@ article h2 {
     width: 80%;
     height: 90%; } }
 
+@media (min-height: 1024px) {
+  .fieldset {
+    margin: 20vh 0 0 15%;
+    width: 80%; }
+  .contacto__map {
+    margin: 20vh 0 5vh 15%; }
+  .form__buttons {
+    margin: 0 1vw 10vh 15%; }
+  .cuidados__orotxt {
+    margin: 10vw 0 10vw 0;
+    padding: 10vw 0 0 0; }
+  .cuidados__orovid {
+    margin: 10vw 0 10vw 0;
+    padding: 10vw 0 10vw 0; }
+  .cuidados__platatxt {
+    margin: 10vw 0 10vw 0;
+    padding: 10vw 0 0 0; }
+  .cuidados__platavid {
+    margin: 10vw 0 10vw 0;
+    padding: 10vw 0 10vw 0; } }
+
 @media (min-width: 1200px) {
   .index__body {
     display: grid;
@@ -659,27 +673,6 @@ article h2 {
     padding: 5vw 0 5vw 0; }
   .sliderWidth {
     width: 75vw; } }
-
-@media (min-height: 1024px) {
-  .fieldset {
-    margin: 20vh 0 0 15%;
-    width: 80%; }
-  .contacto__map {
-    margin: 20vh 0 5vh 15%; }
-  .form__buttons {
-    margin: 0 1vw 10vh 15%; }
-  .cuidados__orotxt {
-    margin: 10vw 0 10vw 0;
-    padding: 10vw 0 0 0; }
-  .cuidados__orovid {
-    margin: 10vw 0 10vw 0;
-    padding: 10vw 0 10vw 0; }
-  .cuidados__platatxt {
-    margin: 10vw 0 10vw 0;
-    padding: 10vw 0 0 0; }
-  .cuidados__platavid {
-    margin: 10vw 0 10vw 0;
-    padding: 10vw 0 10vw 0; } }
 
 @media (min-height: 1368px) {
   .fieldset {

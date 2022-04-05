@@ -14,7 +14,6 @@
     margin: 30px 10px 20px 10px;
     padding: 10px 0 20px 0px;
     box-sizing: border-box;
-
     article {
         h2{
             @include titleXl
@@ -57,7 +56,7 @@ article h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    h3{
+    h4{
         @include titleMd;
     }
     p{
@@ -76,11 +75,4 @@ article h2{
 .comments--bgwhite{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255, 255, 255, 0.706) 0%, rgba(226, 160, 238, 0.143) 100%);
-}
-.comments__title--xl{
-    font-size: 2.5rem;
-    font-weight: 500;
-}
-.comments__text--md{
-    font-size: 2rem;
 }

@@ -1,50 +1,25 @@
 .index__body{
-    background-image: url(../img/background.jpg) ;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: grid;
-    grid-template-columns: 1fr;
+    @include body;
     grid-template-rows: auto auto auto auto auto auto auto auto;
     grid-template-areas: "uphead" "header" "navsticky" "quienes" "comments" "aside" "footer";
 }
 .ofertas__body{
-    background-image: url(../img/background.jpg) ;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: grid;
-    grid-template-columns: 1fr;
+    @include body;
     grid-template-rows: auto auto auto auto auto auto;
     grid-template-areas: "uphead" "header" "navsticky" "ofertas" "aside" "footer";
 }
 .marcas__body{
-    background-image: url(../img/background.jpg) ;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: grid;
-    grid-template-columns: 1fr;
+    @include body;
     grid-template-rows: auto auto auto auto auto auto;
     grid-template-areas: "uphead" "header" "navsticky" "marcas" "aside" "footer";
 }
 .cuidados__body{
-    background-image: url(../img/background.jpg) ;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: grid;
-    grid-template-columns: 1fr;
+    @include body;
     grid-template-rows: auto auto auto auto auto auto auto auto auto;
     grid-template-areas: "uphead" "header" "navsticky" "orotxt" "orovid" "platatxt" "platavid" "footer";
 }
 .contacto__body{
-    background-image: url(../img/background.jpg) ;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: grid;
-    grid-template-columns: 1fr;
+    @include body;
     grid-template-rows: auto auto auto auto auto auto;
     grid-template-areas: "uphead" "header" "navsticky" "formulario" "mapa" "footer";
 }
@@ -130,7 +105,38 @@
     .contacto__map--size{
         width: 80%;
         height: 90%;
-
+    }
+    }
+    @media (min-height: 1024px){
+    .fieldset{
+        margin: 20vh 0 0 15%;
+        width: 80%;
+    }
+    .contacto__map{
+        margin: 20vh 0 5vh 15%;
+    }
+    .form__buttons{
+        margin: 0 1vw 10vh 15%;
+    }
+    .cuidados__orotxt{
+                   
+        margin: 10vw 0 10vw 0;
+        padding: 10vw 0 0 0;
+    }                
+    .cuidados__orovid{
+                   
+        margin: 10vw 0 10vw 0;
+        padding: 10vw 0 10vw 0;
+    }
+        .cuidados__platatxt{
+                    
+        margin: 10vw 0 10vw 0;
+        padding: 10vw 0 0 0;
+    }                
+    .cuidados__platavid{
+                   
+        margin: 10vw 0 10vw 0;
+        padding: 10vw 0 10vw 0;
     }
     }
 @media (min-width: 1200px) {
@@ -192,41 +198,6 @@
     }
     .sliderWidth{
         width: 75vw;
-    }
-}
-@media (min-height: 1024px){
-    .fieldset{
-        margin: 20vh 0 0 15%;
-        width: 80%;
-    }
-    .contacto__map{
-        margin: 20vh 0 5vh 15%;
-    }
-    .form__buttons{
-        margin: 0 1vw 10vh 15%;
-    }
-    .cuidados__orotxt{
-               
-        margin: 10vw 0 10vw 0;
-        padding: 10vw 0 0 0;
-    }
-            
-    .cuidados__orovid{
-               
-        margin: 10vw 0 10vw 0;
-        padding: 10vw 0 10vw 0;
-    }
-            
-    .cuidados__platatxt{
-                
-        margin: 10vw 0 10vw 0;
-        padding: 10vw 0 0 0;
-    }
-            
-    .cuidados__platavid{
-               
-        margin: 10vw 0 10vw 0;
-        padding: 10vw 0 10vw 0;
     }
 }
 @media (min-height: 1368px){

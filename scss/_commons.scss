@@ -23,7 +23,14 @@ $headerTitleFontstyle:'Pacifico', cursive;
 $navFontsize: calc(2rem + 0.65vw);
 $headerTitlesize:3rem;
 
-
+@mixin body{
+    background-image: url(../img/background.jpg) ;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+}
 @mixin textXl {
     font-size: calc(1.5rem + 0.2vw);
     line-height: 150%;
