@@ -15,10 +15,9 @@ nav ol{
         text-align: center;}
     }
 .header__upperheader{
+    @include text(1.2rem,400,100%);
     background-color: white;
     text-align: center;
-    font-weight: 400;
-    font-size: 1.2rem;
     width: 100%;
     grid-area: uphead;
 }
@@ -47,7 +46,7 @@ li a:hover{
     border-radius: 3px;
     z-index: 2;
 }
-.header__list--desplegable  {
+.header__list--desplegable{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -61,8 +60,7 @@ li a:hover{
 	transform: translate(-101%, 0);
 	transition-duration: 1s;
 }
-.header__nav input
-{
+.header__nav input{
   display: flex;
   width: 10vw;
   height: 10vw;
@@ -75,8 +73,7 @@ li a:hover{
 .header__nav div{
     position: absolute;
 }
-.header__nav input:checked ~ ol
-{
+.header__nav input:checked ~ ol{
   transform: none;
 }
 .header__image--w50{

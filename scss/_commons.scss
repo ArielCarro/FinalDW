@@ -23,6 +23,11 @@ $headerTitleFontstyle:'Pacifico', cursive;
 $navFontsize: calc(2rem + 0.65vw);
 $headerTitlesize:3rem;
 
+@mixin text ($font-size,$font-weight,$line-height){
+    font-size: $font-size;
+    font-weight: $font-weight;
+    line-height: $line-height;
+}
 @mixin body{
     background-image: url(../img/background.jpg) ;
     background-attachment: scroll;

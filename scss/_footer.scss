@@ -35,11 +35,10 @@ footer{
 .grow:hover { transform: scale(1.2); 
 }
 .footer2__title--md{
-    font-size: 1rem;
-    font-weight: 400;
+    @include text (1rem,400,100%);
 }
 .footer2__text--sm{
-    font-size: 1rem;
+    @include text (1rem,300,100%);
 }
 .form__label--margin{
 margin: 20px 0 20px 0;

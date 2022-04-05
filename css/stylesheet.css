@@ -31,10 +31,11 @@ nav ol {
     text-align: center; }
 
 .header__upperheader {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 100%;
   background-color: white;
   text-align: center;
-  font-weight: 400;
-  font-size: 1.2rem;
   width: 100%;
   grid-area: uphead; }
 
@@ -159,10 +160,13 @@ footer {
 
 .footer2__title--md {
   font-size: 1rem;
-  font-weight: 400; }
+  font-weight: 400;
+  line-height: 100%; }
 
 .footer2__text--sm {
-  font-size: 1rem; }
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 100%; }
 
 .form__label--margin {
   margin: 20px 0 20px 0; }
@@ -188,7 +192,7 @@ aside {
     line-height: 150%;
     text-align: center; }
 
-.aside__flex {
+.aside__flex, .aside__cuidados--flex {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -196,19 +200,14 @@ aside {
   height: auto;
   box-sizing: border-box; }
 
-.aside__cuidados--flex {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  height: auto; }
-  .aside__cuidados--flex div h2 {
-    font-size: calc(2rem + 0.2vw);
-    font-weight: 500; }
-  .aside__cuidados--flex div p {
-    font-size: calc(1.2rem + 0.2vw);
-    font-weight: 500;
-    line-height: 150%; }
+.aside__cuidados--flex div h2 {
+  font-size: calc(2rem + 0.2vw);
+  font-weight: 500; }
+
+.aside__cuidados--flex div p {
+  font-size: calc(1.2rem + 0.2vw);
+  font-weight: 500;
+  line-height: 150%; }
 
 .aside__graphs {
   display: flex;
