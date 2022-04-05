@@ -364,7 +364,7 @@ article h2 {
       top: 0;
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: stretch;
       flex-direction: column;
       background-color: white;
       border: 3px solid; }
@@ -464,6 +464,13 @@ article h2 {
   margin: 12% 0 0 15%;
   width: 80%;
   box-sizing: border-box; }
+  .fieldset h3 {
+    font-size: calc(2rem + 0.2vw);
+    font-weight: 500; }
+  .fieldset div {
+    font-size: calc(1.2rem + 0.2vw);
+    font-weight: 500;
+    line-height: 150%; }
 
 .form__title {
   text-align: center; }

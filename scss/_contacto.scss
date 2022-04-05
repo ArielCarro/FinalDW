@@ -10,6 +10,12 @@ background-color: map-get($map: $paleta, $key:'bgSolid' );
 margin: 12% 0 0 15%;
 width: 80%;
 box-sizing: border-box;
+    h3{
+        @include titleMd;
+    }
+    div{
+        @include textMd
+    }
 }
 .form__title{
     text-align: center;
