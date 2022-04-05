@@ -38,6 +38,12 @@ aside{
     flex-direction: row;
     justify-content:space-evenly;
     width: 90%;
+    div{
+        h3{
+            @include titleMd;
+            text-align: center;
+        }
+    }
 }
 .aside__cuidados{
     display: none;
@@ -48,38 +54,10 @@ aside{
     contain: content;
     box-sizing: border-box;
 }
-.aside__bg{
-    border: 1px solid #000000; 
-    width:260px ; 
-    height: auto; 
-    background-color: #ffffff;
-    margin: 10px 0 10px 0;
-}
-.aside__chart{
-    width: 100%; 
-    height: auto; 
-    text-align: center; 
-    padding-top: 0px; 
-    font-size: 18px; 
-    font-weight: bold; 
-    background-color: #000000;
-}
-.aside__title{
-    color: #FFFFFF; 
-    background-color: #000000; 
-    text-decoration: none;
-}
 /*ends aside & index*/
 .asideof__graphs{
-    @include flex (flex, center, center);
+    @include flex (flex, space-evenly, center);
     flex-direction: row;
     justify-content: space-evenly;
     width: 90%;
-}
-.asideof__bg{
-    border: 1px solid #000000; 
-    width:260px ; 
-    height: auto; 
-    background-color: #ffffff;
-    margin: 10px 0 10px 0;
 }
