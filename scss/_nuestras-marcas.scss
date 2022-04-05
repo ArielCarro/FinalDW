@@ -9,7 +9,7 @@
 }
 .marcas__main{
     grid-area: marcas;
-    background-color: $bgColoralpha;
+    background-color: map-get($map: $paleta, $key:'bgAlpha' );
 }
 .marcas__li{
     width: 30%;

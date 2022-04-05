@@ -1,10 +1,10 @@
 .header__title--fontstyle{
     font-family: $headerTitleFontstyle;
-    color: $headerTitleColor;
+    color: map-get($map: $paleta, $key:'titleTxt' );
     font-size: $headerTitlesize;
 }
 .header__title--fontstyle:hover{
-    color: $headerTitleColor;
+    color: map-get($map: $paleta, $key:'titleTxt' );
 }
 nav ol{
     list-style: none;
@@ -29,7 +29,7 @@ li a:hover{
 }
 .header__div{
     width: 100%;
-    background-color: $bgColorsolid;
+    background-color: map-get($map: $paleta, $key:'bgSolid' );
     @include d-flex-center;
     flex-wrap: wrap;
     flex-direction: column;
@@ -39,7 +39,7 @@ li a:hover{
 }
 //starts nav para mobile
 .header__nav{
-    background-color: $bgColorsolid;
+    background-color: map-get($map: $paleta, $key:'bgSolid' );
     display: flex;
     margin-bottom: 0px;
     position: relative;
@@ -55,7 +55,7 @@ li a:hover{
 	height: 60vh;
 	top: 0px;
     padding: 50px 0 100px 0;
-	background-color: $bgColordesplegable;
+    background-color: map-get($map: $paleta, $key:'bgMenu' );
 	transform-origin: 0% 0%;
 	transform: translate(-101%, 0);
 	transition-duration: 1s;
@@ -89,7 +89,7 @@ li a:hover{
 //Starts sticky nav
 .header__navsticky{
     display: none;
-    background-color: $bgColorsolid;
+    background-color: map-get($map: $paleta, $key:'bgSolid' );
     position: sticky;
     top: 0px;
     margin: -1px 0px;

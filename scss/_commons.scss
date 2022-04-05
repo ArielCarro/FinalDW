@@ -14,14 +14,17 @@ a{
 a:hover{
     color:unset;
 }
-$bgColorsolid: rgba(238, 188, 247, 1);
-$bgColoralpha:rgba(238, 188, 247, 0.8);
-$bgColordesplegable:rgba(255, 255, 255, 0.8);
-$bgColorofertas: #C1F4C5;
-$headerTitleColor: rgb(140, 68, 207);
 $headerTitleFontstyle:'Pacifico', cursive;
 $navFontsize: calc(2rem + 0.65vw);
 $headerTitlesize:3rem;
+
+$paleta:(
+    'bgSolid':rgba(238, 188, 247, 1),
+    'bgAlpha':rgba(238, 188, 247, 0.8),
+    'bgMenu':rgba(255, 255, 255, 0.8),
+    'bgOfertas':#C1F4C5,
+    'titleTxt':rgb(140, 68, 207),
+);
 
 @mixin text ($font-size,$font-weight,$line-height){
     font-size: $font-size;

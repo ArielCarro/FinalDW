@@ -13,28 +13,28 @@
 }
 .cuidados__orotxt{
     grid-area: orotxt;
-    background-color: rgba(238, 188, 247, 0.8);
+    background-color: map-get($map: $paleta, $key:'bgAlpha' );
     margin: 10vw 0 0 0;
     padding: 10vw 0 10px 0;
 }
 
 .cuidados__orovid{
     grid-area: orovid;
-    background-color: rgba(238, 188, 247, 0.8);
+    background-color: map-get($map: $paleta, $key:'bgAlpha' );
     margin: 0 0 10vw 0;
     padding: 0 0 10vw 0;
 }
 
 .cuidados__platatxt{
     grid-area: platatxt;
-    background-color: rgba(238, 188, 247, 0.8);
+    background-color: map-get($map: $paleta, $key:'bgAlpha' );
     margin: 10vw 0 0 0;
     padding: 10vw 0 10px 0;
 }
 
 .cuidados__platavid{
     grid-area: platavid;
-    background-color: rgba(238, 188, 247, 0.8);
+    background-color: map-get($map: $paleta, $key:'bgAlpha' );
     margin: 0 0 10vw 0;
     padding: 0 0 10vw 0;
 }
