@@ -49,7 +49,7 @@ aside{
     display: none;
     grid-area: aside;
     background-color: map-get($map: $paleta, $key:'bgAlpha' );
-    margin: 40px 10px 30px 10px;
+    margin: 30px 10px 30px 10px;
     width: auto;
     contain: content;
     box-sizing: border-box;

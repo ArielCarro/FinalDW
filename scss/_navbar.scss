@@ -1,3 +1,7 @@
+.header__title{
+    @include flex(flex,center,center);
+    padding:10px 0 0 0;
+}
 .header__title--fontstyle{
     font-family: $headerTitleFontstyle;
     color: map-get($map: $paleta, $key:'titleTxt' );

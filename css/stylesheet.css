@@ -14,6 +14,12 @@ a {
 a:hover {
   color: unset; }
 
+.header__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 0 0; }
+
 .header__title--fontstyle {
   font-family: "Pacifico", cursive;
   color: #8c44cf;
@@ -228,7 +234,7 @@ aside {
   display: none;
   grid-area: aside;
   background-color: rgba(238, 188, 247, 0.8);
-  margin: 40px 10px 30px 10px;
+  margin: 30px 10px 30px 10px;
   width: auto;
   contain: content;
   box-sizing: border-box; }
@@ -256,7 +262,7 @@ aside {
   background-color: rgba(238, 188, 247, 0.8);
   width: auto;
   margin: 30px 10px 20px 10px;
-  padding: 10px 0 20px 0px;
+  padding: 10px 20px 20px 20px;
   box-sizing: border-box; }
   .quienes article h2 {
     font-size: calc(3rem + 0.2vw);
@@ -270,7 +276,7 @@ aside {
   height: auto; }
 
 .sliderWidth {
-  width: 90vw; }
+  width: 100%; }
 
 .main__title--margin {
   margin: 0 0px; }
@@ -386,41 +392,51 @@ article h2 {
   max-width: 100%;
   justify-self: center; }
 
-.cuidados__body div h3 {
+.cuidados__body h3 {
   font-size: calc(2rem + 0.2vw);
   font-weight: 500; }
 
-.cuidados__body div h4 {
+.cuidados__body h4 {
   font-size: calc(1.5rem + 0.2vw);
   font-weight: 500; }
 
-.cuidados__body div p {
+.cuidados__body p {
   font-size: calc(1.5rem + 0.2vw);
   line-height: 150%; }
 
+.cuidados__body iframe {
+  width: 90%;
+  height: 400px; }
+
+.cuidados_paddingtxt, .cuidados__orotxt, .cuidados__platatxt {
+  padding: 30px 20px 30px 20px;
+  margin: 30px 0px 0px 0px; }
+
+.cuidados_paddingvid, .cuidados__orovid, .cuidados__platavid {
+  padding: 30px 20px 30px 20px;
+  margin: 0px 0px 30px 0px; }
+
 .cuidados__orotxt {
   grid-area: orotxt;
-  background-color: rgba(238, 188, 247, 0.8);
-  margin: 10vw 0 0 0;
-  padding: 10vw 0 10px 0; }
+  background-color: rgba(238, 188, 247, 0.8); }
 
 .cuidados__orovid {
   grid-area: orovid;
-  background-color: rgba(238, 188, 247, 0.8);
-  margin: 0 0 10vw 0;
-  padding: 0 0 10vw 0; }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(238, 188, 247, 0.8); }
 
 .cuidados__platatxt {
   grid-area: platatxt;
-  background-color: rgba(238, 188, 247, 0.8);
-  margin: 10vw 0 0 0;
-  padding: 10vw 0 10px 0; }
+  background-color: rgba(238, 188, 247, 0.8); }
 
 .cuidados__platavid {
   grid-area: platavid;
-  background-color: rgba(238, 188, 247, 0.8);
-  margin: 0 0 10vw 0;
-  padding: 0 0 10vw 0; }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(238, 188, 247, 0.8); }
 
 .cuidados__vid {
   height: auto;
@@ -563,23 +579,17 @@ article h2 {
     grid-template-columns: 50% 50%;
     grid-template-rows: auto auto auto auto auto auto auto;
     grid-template-areas: "uphead uphead" "header header" "navsticky navsticky" "orotxt orovid" "platatxt platavid" "footer footer"; }
+  .cuidados_paddingtxt, .cuidados__orotxt, .cuidados__platatxt {
+    margin: 30px 0px 30px 0px; }
+  .cuidados_paddingvid, .cuidados__orovid, .cuidados__platavid {
+    margin: 30px 0px 30px 0px; }
   .footer2__title--md {
     font-size: calc(2rem + 0.2vw);
     font-weight: 400; }
   .footer2__text--sm {
     font-size: calc(1.5rem + 0.2vw); }
-  .cuidados__orovid {
-    margin: 5vw 0 5vw 0;
-    padding: 5vw 0 5vw 0; }
-  .cuidados__orotxt {
-    margin: 5vw 0 5vw 0;
-    padding: 5vw 0 5vw 0; }
-  .cuidados__platavid {
-    margin: 5vw 0 5vw 0;
-    padding: 5vw 0 5vw 0; }
-  .cuidados__platatxt {
-    margin: 5vw 0 5vw 0;
-    padding: 5vw 0 5vw 0; }
+  .cuidados__body div iframe {
+    height: 300px; }
   .contacto__body {
     background-image: url(../img/background.jpg);
     background-attachment: scroll;
@@ -600,25 +610,13 @@ article h2 {
   .contacto__map {
     margin: 20vh 0 5vh 15%; }
   .form__buttons {
-    margin: 0 1vw 10vh 15%; }
-  .cuidados__orotxt {
-    margin: 10vw 0 10vw 0;
-    padding: 10vw 0 0 0; }
-  .cuidados__orovid {
-    margin: 10vw 0 10vw 0;
-    padding: 10vw 0 10vw 0; }
-  .cuidados__platatxt {
-    margin: 10vw 0 10vw 0;
-    padding: 10vw 0 0 0; }
-  .cuidados__platavid {
-    margin: 10vw 0 10vw 0;
-    padding: 10vw 0 10vw 0; } }
+    margin: 0 1vw 10vh 15%; } }
 
 @media (min-width: 1200px) {
   .index__body {
     display: grid;
     grid-template-columns: 40% 40% 20%;
-    grid-template-areas: "uphead uphead uphead" "header header header" "navsticky navsticky navsticky"  "quienes quienes aside" "comments comments comments" "footer footer footer"; }
+    grid-template-areas: "uphead uphead uphead" "header header header" "navsticky navsticky navsticky" "quienes quienes aside" "comments comments comments" "footer footer footer"; }
   .aside__graphs {
     display: flex;
     justify-content: space-evenly;
@@ -648,21 +646,7 @@ article h2 {
     display: grid;
     grid-template-columns: 40% 40% 20%;
     grid-template-rows: auto auto auto auto auto auto auto;
-    grid-template-areas: "uphead uphead uphead" "header header header" "navsticky navsticky navsticky" "orotxt orovid aside" "platatxt platavid aside" "footer footer footer"; }
-  .cuidados__orovid {
-    margin: 40px 0 40px 0;
-    padding: 5vw 0 5vw 0; }
-  .cuidados__orotxt {
-    margin: 40px 0 40px 0;
-    padding: 5vw 0 5vw 0; }
-  .cuidados__platavid {
-    margin: 40px 0 30px 0;
-    padding: 5vw 0 5vw 0; }
-  .cuidados__platatxt {
-    margin: 40px 0 30px 0;
-    padding: 5vw 0 5vw 0; }
-  .sliderWidth {
-    width: 75vw; } }
+    grid-template-areas: "uphead uphead uphead" "header header header" "navsticky navsticky navsticky" "orotxt orovid aside" "platatxt platavid aside" "footer footer footer"; } }
 
 @media (min-height: 1368px) {
   .fieldset {
