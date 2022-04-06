@@ -15,7 +15,7 @@ nav ol{
         text-align: center;}
     }
 .header__upperheader{
-    @include text(1.2rem,400,100%);
+    @include text(1.2rem,600,300%);
     background-color: white;
     text-align: center;
     width: 100%;
@@ -50,7 +50,7 @@ li a:hover{
     @include flex (flex, space-around, center);
     flex-direction: column;
 	position: absolute;
-	width: 90vw;
+	width: 90%;
 	height: 60vh;
 	top: 0px;
     padding: 50px 0 100px 0;
