@@ -369,12 +369,12 @@ article h2 {
   background-color: rgba(238, 188, 247, 0.8); }
 
 .marcas__li {
-  width: 30%;
-  border: 3px;
-  height: 30vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 400px;
+  border: 3px;
+  height: 40vh;
   flex-direction: row;
   background-color: white;
   border: 3px solid;
