@@ -48,6 +48,15 @@
         flex-wrap: wrap;
         flex-direction: row;
     }
+    .asideind__graphs{
+        flex-direction: row;
+        div{
+            margin: 0px 0 0px 0;
+        }
+    }
+    .aside__graphsmobile{
+        flex-direction: row;
+    }
     .ofertas{
         li{
             width: 28%;
@@ -150,6 +159,21 @@
         flex-direction: column;
         width: 100%;
         height: 90%;
+    }
+    .aside__graphsmobile{
+        display: none;
+    }
+    .aside__graphsdesktop{
+        @include flex (flex, space-evenly, center);
+        flex-direction: column;
+        width: 100%;
+        div{
+            margin: 20px 0 20px 0;
+            h3{
+                @include titleMd;
+                text-align: center;
+            }
+        }
     }
 
     .aside__cuidados {

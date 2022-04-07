@@ -17,7 +17,7 @@ aside{
 
 }
 .aside__flex{
-    @include flex (flex, center, center);
+    @include flex (flex, stretch, center);
     flex-direction: column;
     height: auto;
     box-sizing: border-box;
@@ -37,13 +37,32 @@ aside{
     @include flex (flex, center, center);
     flex-direction: row;
     justify-content:space-evenly;
-    width: 90%;
+    margin: 10px;
+
     div{
         h3{
             @include titleMd;
             text-align: center;
         }
     }
+}
+.aside__graphsmobile{
+    @include flex (flex, space-evenly, center);
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    div{
+        margin: 20px 0 20px 0;
+        h3{
+            @include titleMd;
+            text-align: center;
+        }
+    }
+}
+.aside__graphsdesktop{
+    display: none;
+    height: 100%;
+    width: 100%;
 }
 .aside__cuidados{
     display: none;
