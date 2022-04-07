@@ -39,7 +39,7 @@ nav ol {
 .header__upperheader {
   font-size: 1.2rem;
   font-weight: 600;
-  line-height: 300%;
+  line-height: 150%;
   background-color: white;
   text-align: center;
   width: 100%;
@@ -244,7 +244,7 @@ aside {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   width: 90%; }
 
@@ -272,7 +272,7 @@ aside {
     line-height: 150%; }
 
 .quienes__article {
-  width: 90%;
+  width: 100%;
   height: auto; }
 
 .sliderWidth {
@@ -334,10 +334,10 @@ article h2 {
   grid-area: ofertas;
   box-sizing: border-box; }
   .ofertas li {
-    width: 30%;
+    width: 45%;
     border: 3px;
     top: 0;
-    margin: 10px;
+    margin: 2%;
     height: auto; }
     .ofertas li figure {
       width: 100%;
@@ -499,7 +499,7 @@ article h2 {
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto;
   grid-template-areas: "uphead" "header" "navsticky" "quienes" "comments" "aside" "footer"; }
 
 .ofertas__body {
@@ -529,7 +529,7 @@ article h2 {
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
   grid-template-areas: "uphead" "header" "navsticky" "orotxt" "orovid" "platatxt" "platavid" "footer"; }
 
 .contacto__body {
@@ -556,6 +556,10 @@ article h2 {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    flex-direction: row; }
+  .ofertas li {
+    width: 28%; }
+  .asideof__graphs {
     flex-direction: row; }
   .header__title--fontstyle {
     font-size: 50px;

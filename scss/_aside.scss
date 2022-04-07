@@ -57,7 +57,7 @@ aside{
 /*ends aside & index*/
 .asideof__graphs{
     @include flex (flex, space-evenly, center);
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     width: 90%;
 }

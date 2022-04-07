@@ -26,6 +26,14 @@ $paleta:(
     'titleTxt':rgb(140, 68, 207),
 );
 
+@mixin body{
+    background-image: url(../img/background.jpg) ;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+}
 @mixin text ($font-size,$font-weight,$line-height){
     font-size: $font-size;
     font-weight: $font-weight;
@@ -35,14 +43,6 @@ $paleta:(
     display: $display;
     justify-content: $justify;
     align-items: $align;
-}
-@mixin body{
-    background-image: url(../img/background.jpg) ;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: grid;
-    grid-template-columns: 1fr;
 }
 @mixin textXl {
     font-size: calc(1.5rem + 0.2vw);
