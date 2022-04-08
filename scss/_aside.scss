@@ -20,11 +20,14 @@ aside{
 .aside__flex{
     @include flex (flex, stretch, center);
     flex-direction: column;
-    height: auto;
     box-sizing: border-box;
 }
-.aside__cuidados--flex{
-    @extend .aside__flex;
+.aside__cuidados{
+    display: none;
+    grid-area: aside;
+    background-color: map-get($map: $paleta, $key:'bgAlpha' );
+    margin: 30px 10px 30px 10px;
+    contain: content;
     div{
         h2{
             @include titleMd;
@@ -64,15 +67,6 @@ aside{
     display: none;
     height: 100%;
     width: 100%;
-}
-.aside__cuidados{
-    display: none;
-    grid-area: aside;
-    background-color: map-get($map: $paleta, $key:'bgAlpha' );
-    margin: 30px 10px 30px 10px;
-    width: auto;
-    contain: content;
-    box-sizing: border-box;
 }
 /*ends aside & index*/
 .asideof__graphs{

@@ -20,7 +20,7 @@
 
 .cuidados__body {
     @include body;
-    grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
     grid-template-areas: "uphead""header""navsticky""orotxt""orovid""platatxt""platavid""footer";
 }
 
@@ -179,7 +179,9 @@
     }
 
     .aside__cuidados {
-        display: block;
+        @include flex (flex, stretch, center);
+        flex-direction: column;
+        box-sizing: border-box;
     }
 
     .aside__bg {
