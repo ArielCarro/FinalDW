@@ -144,7 +144,8 @@ footer {
   grid-area: footer;
   min-width: 500px;
   width: auto;
-  margin: 30px 0 0 0; }
+  margin: 30px 0 0 0;
+  padding: 10px 10px 10px 10px; }
   footer div h4 {
     font-size: calc(2rem + 0.2vw);
     font-weight: 500; }
@@ -172,16 +173,6 @@ footer {
 
 .grow:hover {
   transform: scale(1.2); }
-
-.footer2__title--md {
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 100%; }
-
-.footer2__text--sm {
-  font-size: 1rem;
-  font-weight: 300;
-  line-height: 100%; }
 
 /* end footer *******************************************************************************************************************************************************/
 /* start aside *******************************************************************************************************************************************************/
