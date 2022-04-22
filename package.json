@@ -1,7 +1,7 @@
 {
-  "name": "tercera_entrega",
+  "name": "entrega_final",
   "version": "1.0.0",
-  "description": "tercera entrega proyecto final",
+  "description": "Entrega finbal para curso de desarrollo web",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArielCarro/tercera_entrega.git"
+    "url": "git+https://github.com/ArielCarro/FinalDW"
   },
   "author": "ArielCarro",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ArielCarro/tercera_entrega/issues"
+    "url": "https://github.com/ArielCarro/FinalDW/issues"
   },
-  "homepage": "https://github.com/ArielCarro/tercera_entrega#readme",
+  "homepage": "https://github.com/ArielCarro/FinalDW#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
