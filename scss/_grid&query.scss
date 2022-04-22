@@ -50,23 +50,29 @@
         flex-wrap: wrap;
         flex-direction: row;
     }
-    .asideind__graphs{
+
+    .asideind__graphs {
         flex-direction: row;
-        div{
+
+        div {
             margin: 0px 0 0px 0;
         }
     }
-    .aside__graphsmobile{
+
+    .aside__graphsmobile {
         flex-direction: row;
     }
-    .ofertas{
-        li{
+
+    .ofertas {
+        li {
             width: 28%;
         }
     }
-    .asideof__graphs{
+
+    .asideof__graphs {
         flex-direction: row;
     }
+
     .header__title--fontstyle {
         font-size: 50px;
         width: 350px;
@@ -96,12 +102,15 @@
         grid-template-rows: auto auto auto auto auto auto auto;
         grid-template-areas: "uphead uphead""header header""navsticky navsticky""orotxt orovid""platatxt platavid""footer footer";
     }
-    .cuidados_paddingtxt{
+
+    .cuidados_paddingtxt {
         margin: 30px 0px 30px 0px;
     }
-    .cuidados_paddingvid{
+
+    .cuidados_paddingvid {
         margin: 30px 0px 30px 0px;
     }
+
     .footer2__title--md {
         font-size: calc(2rem + 0.2vw);
         font-weight: 400;
@@ -110,6 +119,7 @@
     .footer2__text--sm {
         font-size: calc(1.5rem + 0.2vw);
     }
+
     .cuidados__body {
         div {
             iframe {
@@ -117,6 +127,7 @@
             }
         }
     }
+
     .contacto__body {
         background-image: url(../img/background.jpg);
         background-attachment: scroll;
@@ -132,7 +143,14 @@
         width: 80%;
         height: 90%;
     }
+
+    .body__error{
+        img {
+            width: 50%;
+        }
+    }
 }
+
 @media (min-height: 1024px) {
     .fieldset {
         margin: 20vh 0 0 15%;
@@ -162,16 +180,20 @@
         width: 100%;
         height: 90%;
     }
-    .aside__graphsmobile{
+
+    .aside__graphsmobile {
         display: none;
     }
-    .aside__graphsdesktop{
+
+    .aside__graphsdesktop {
         @include flex (flex, space-evenly, center);
         flex-direction: column;
         width: 100%;
-        div{
+
+        div {
             margin: 20px 0 20px 0;
-            h3{
+
+            h3 {
                 @include titleMd;
                 text-align: center;
             }
@@ -229,4 +251,5 @@
         margin: 0 1vw 20vh 15%;
     }
 }
+
 /* end grid&query *******************************************************************************************************************************************************/
